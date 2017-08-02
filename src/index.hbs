@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>McLaren demo - Patients activity visualisation</title>
+    <meta name="description" content="">
+
+    {{#each htmlWebpackPlugin.files.css}}
+      <link rel="stylesheet" href="{{ this }}" />
+    {{/each}}
+
+  </head>
+  <body style="margin:0;">
+    <div id="app"></div>
+
+    {{#each htmlWebpackPlugin.files.js}}
+      <script src="{{ this }}"></script>
+    {{/each}}
+  </body>
+</html>

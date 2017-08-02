@@ -1,0 +1,17 @@
+:global .page-enter {
+  opacity: 0.01;
+}
+
+:global .page-enter.page-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+:global .page-leave {
+  opacity: 1;
+}
+
+:global .page-leave.page-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

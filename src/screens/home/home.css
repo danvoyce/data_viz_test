@@ -1,0 +1,40 @@
+:local .main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #064472;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+:local .heading {
+  margin: 30px;
+}
+
+:local .filters {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  text-align: left;
+  font-size: 20px;
+  z-index: 2;
+}
+
+:local .key {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  width: 100%;
+}
+
+:local .key p {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+:local .key strong {
+  font-weight: 600;
+  font-size: 15px;
+}
+

@@ -1,0 +1,8 @@
+:local .main {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  height: calc(100% - 70px);
+  background: #EBAA03;
+  padding: 0 20px;
+}
